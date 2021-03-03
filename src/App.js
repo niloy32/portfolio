@@ -1,7 +1,5 @@
 import logo from "./logo.svg";
-import ReactDOM from "react-dom";
-import { Link } from "react-router-dom";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -11,7 +9,6 @@ import {
   faAmericanSignLanguageInterpreting,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import video from "../src/video2.mp4";
 import Gamefest from "./Test_icon";
 import Aciv_nsu2016 from "./2016_aciv";
 import Youth_zest2018 from "./youth_zest";
@@ -25,10 +22,6 @@ library.add(
   faAmericanSignLanguageInterpreting
 );
 
-const styles = {
-  fontFamily: "sans-serif",
-  textAlign: "center",
-};
 function App() {
   return (
     <div className="App">
