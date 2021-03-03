@@ -1,10 +1,15 @@
-.App {
+import .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: -webkit-fill-available;
   pointer-events: none;
+  width: fit-content;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,8 +18,12 @@
   }
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .logo2 {
+    animation: App-logo-spin infinite 18s linear;
+  }
+}
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,16 +32,395 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
-  color: #61dafb;
+  color: #4e4e4e;
 }
-
+.logo2 {
+  margin-top: -150px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
+    opacity: 100%;
   }
+
   to {
     transform: rotate(360deg);
+    opacity: 50%;
   }
+}
+
+/* 
+START */
+.grid {
+  /* background-color: #2196f3; */
+  margin: auto;
+  width: 60rem;
+  /* border: 3px solid #73ad21; */
+  padding: 10px;
+}
+
+video {
+  width: inherit;
+  height: inherit;
+  max-width: 100rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: unset;
+}
+
+#c {
+  margin-top: -180px;
+}
+
+p {
+  color: rgb(4, 11, 22);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 200%;
+  text-align: center;
+}
+.personnal_gric {
+  background: #2193b0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #6dd5ed,
+    #2193b0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #6dd5ed,
+    #2193b0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 2%;
+}
+#name_text p {
+  margin-block: -3vh;
+  margin-bottom: -10vh;
+}
+.name {
+  font-size: 100px;
+}
+#des_text img {
+  height: 13rem;
+  margin-left: 20px;
+  width: 220px;
+  border-radius: 12%;
+  margin-top: 6px;
+  border: 5px solid white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#des_text img:hover {
+  transform: translatey(-10px);
+}
+#icons_div {
+  margin-top: 0rem;
+  text-align: -webkit-center;
+  position: relative;
+  font-size: 40px;
+  margin-block: 20px;
+}
+
+#icons_div svg {
+  margin-left: 20px;
+  font-size: -webkit-xxx-large;
+}
+
+#Person_Details {
+  /* background-color: brown; */
+  margin: auto;
+  width: 50%;
+  /* border: 3px solid green; */
+  font-size: 3.4rem;
+  font-family: monospace;
+}
+
+#Person_Details2 {
+  font-size: 1.8rem;
+  font-family: "PT Mono", monospace;
+  text-align: -webkit-center;
+}
+
+#Person_Details3 {
+  /* background-image: url(
+    "https://media0.giphy.com/media/DurocLC2BB4oU/giphy.gif?cid=ecf05e47o5k0xf96o9jlu2v1a5e3t3mnmmdl8p3jku51j2m5&rid=giphy.gif"
+  ); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Person_Details2 p {
+  opacity: 100%;
+}
+
+#years {
+  color: #08165d;
+  font-weight: 600;
+  font-size: -webkit-xxx-large;
+  font-family: cursive;
+  margin-top: 0%;
+}
+
+.EDUCATION_gird {
+  background-image: url("edu.gif");
+  background-repeat: round;
+  border-radius: 2%;
+}
+.EDUCATION_gird:hover {
+  transform: translatey(-25px);
+  background-color: #00a6ff;
+}
+
+#edu_video {
+  margin-top: -405px;
+  opacity: 0.5;
+  border-radius: 5%;
+}
+
+#institute {
+  margin: auto;
+  width: 86%;
+  font-size: 2.9rem;
+  font-family: system-ui;
+  margin-top: 5px;
+  color: #f7f1e3;
+  font-weight: bold;
+}
+
+.What_Computer {
+  margin: auto;
+  width: 61.4%;
+  font-size: 2.4rem;
+  color: #08fa00;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+#languages_Details li {
+  font-size: 40px;
+  font-family: "PT Mono";
+  color: #33ff00;
+  font-weight: bold;
+}
+
+#languages_grid {
+  background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s---1w4VnJR--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/n9b2p3j0h1mdqvms3ogc.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2%;
+}
+
+#languages_Details {
+  color: white;
+  font-family: system-ui;
+  text-align: center;
+}
+#Acivemnts_grid {
+  background: #536976; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #292e49,
+    #536976
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #292e49,
+    #536976
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 2%;
+  pad: 0px;
+}
+
+#Aciv_div {
+  z-index: 1;
+  position: relative;
+}
+
+#game_video {
+  margin-top: -422px;
+  opacity: 0.7;
+  border-radius: 5%;
+  height: 540px;
+}
+
+#Acivemnts_Details {
+  /* background-color: brown;
+
+  border: 3px solid green; */
+  margin: auto;
+  width: 50%;
+  font-size: 3.4rem;
+  font-weight: bold;
+}
+
+#Aciv_div li {
+  font-size: 24px;
+  font-family: cursive;
+  color: #000000;
+  font-weight: bold;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+
+body {
+  background-color: rgb(53, 54, 54);
+  background: #314755; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #26a0da,
+    #314755
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #26a0da,
+    #314755
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* 
+*,
+*::before,
+*::after {
+  box-sizing: unset
+} */
+
+.fa {
+  padding: 0.3em;
+  text-align: center;
+  text-decoration: none;
+  font-size: x-large;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #0f59f7;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa:hover {
+  font-size: xx-large;
+  border: 5px solid #555;
+  color: white;
+}
+
+@media only screen and (max-width: 860px) {
+  #des_text img {
+    height: 30rem;
+    width: 30rem;
+  }
+
+  #icons_div {
+    font-size: 5rem;
+  }
+
+  #Person_Details2 {
+    font-size: 3rem;
+  }
+}
+
+.avatar {
+  background-color: red;
+}
+.MuiAvatar-root {
+  background-image: url ("./gamefest_2015.jpg");
+}
+.media {
+  height: 100px;
+  padding-top: 100px;
+  padding-right: 100px;
+  border-radius: 2%;
+  background-color: #000000;
+}
+
+.root {
+  max-width: 345px;
+  color: #0077b5;
+}
+
+.card_div {
+  background-color: #282c34;
+  display: flex;
+}
+
+.cardtext {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2rem;
+}
+
+.MuiTypography-body2 {
+  font-family: Impact;
+}
+
+.facebook {
+  display: inline-block;
+  color: #6082ff;
+}
+
+.twitter {
+  color: #55acee;
+  display: inline-block;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.facebook:hover,
+.twitter:hover,
+.linkedin :hover {
+  transform: translatey(-10px);
+}
+
+.MuiTypography-body2 {
+  font-size: 10px;
+}
+
+.MuiCardContent-root {
+  padding: 16px;
+  background-image: url(https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltcfa4652c8d383f56/5e21837…/Home-page.jpg);
+  background-repeat: round;
+  background-size: revert;
+  background: #614385; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #516395,
+    #614385
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #516395,
+    #614385
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.MuiCardHeader-root {
+  background: #16222a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #3a6073,
+    #16222a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #3a6073,
+    #16222a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Acivemnts_grid {
+  padding: 7px;
 }
