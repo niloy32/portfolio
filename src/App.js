@@ -88,20 +88,20 @@ function App() {
           <p id="Person_Details">Person Details</p>
           <div id="Person_Details3">
             <p id="Person_Details2">
-              Person DetailsI am a computer science and engineering student
-              currently studying at the University of Liberal Arts Bangladesh. I
-              have profound knowledge of anything computer-related. I have
-              strong analytic and creative skills. I always keep up to date with
-              any new technology and news about the tech industry. I have done
-              few projects in university and I have a lot of experience working
-              with a team. Currently, I’m working as a freelancer. In my free
-              time, I try learning new skills from Coursera or udemy and play
-              video games. I’ve made some websites using HTML, CSS, and
-              JavaScript and currently learning unity game development. I have
-              also used Firebase, MySQL, and PHP for small projects. I am eager
-              to learn new things and I can adapt to any situation. I have
-              participated in a lot of gaming tournaments so I am a really good
-              team player and also, I can work under stress.
+              I am a computer science and engineering student currently studying
+              at the University of Liberal Arts Bangladesh. I have profound
+              knowledge of anything computer-related. I have strong analytic and
+              creative skills. I always keep up to date with any new technology
+              and news about the tech industry. I have done few projects in
+              university and I have a lot of experience working with a team.
+              Currently, I’m working as a freelancer. In my free time, I try
+              learning new skills from Coursera or udemy and play video games.
+              I’ve made some websites using HTML, CSS, and JavaScript and
+              currently learning unity game development. I have also used
+              Firebase, MySQL, and PHP for small projects. I am eager to learn
+              new things and I can adapt to any situation. I have participated
+              in a lot of gaming tournaments so I am a really good team player
+              and also, I can work under stress.
             </p>
           </div>
         </div>
