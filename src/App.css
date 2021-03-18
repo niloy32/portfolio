@@ -101,7 +101,7 @@ p {
   margin-bottom: -10vh;
 }
 .name {
-  font-size: 100px;
+  font-size: 79px;
 }
 #des_text img {
   height: 13rem;
@@ -142,7 +142,7 @@ p {
 
 #Person_Details2 {
   font-size: 1.8rem;
-  font-family: "PT Mono", monospace;
+  font-family: cursive;
   text-align: -webkit-center;
 }
 
@@ -171,10 +171,10 @@ p {
   background-repeat: round;
   border-radius: 2%;
 }
-.EDUCATION_gird:hover {
+/* .EDUCATION_gird:hover {
   transform: translatey(-25px);
   background-color: #00a6ff;
-}
+} */
 
 #edu_video {
   margin-top: -405px;
@@ -222,20 +222,7 @@ p {
   text-align: center;
 }
 #Acivemnts_grid {
-  background: #536976; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to left,
-    #292e49,
-    #536976
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to left,
-    #292e49,
-    #536976
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  border-radius: 2%;
-  pad: 0px;
+  /* background-color: antiquewhite; */
 }
 
 #Aciv_div {
@@ -256,8 +243,9 @@ p {
   border: 3px solid green; */
   margin: auto;
   width: 50%;
-  font-size: 3.4rem;
+  font-size: 6rem;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 #Aciv_div li {
@@ -270,18 +258,7 @@ p {
 }
 
 body {
-  background-color: rgb(53, 54, 54);
-  background: #314755; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #26a0da,
-    #314755
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #26a0da,
-    #314755
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #526875;
 }
 
 /* 
@@ -370,7 +347,7 @@ body {
 
 .facebook {
   display: inline-block;
-  color: #3f68ff;
+  color: #293871;
 }
 
 .twitter {
@@ -379,7 +356,7 @@ body {
 }
 
 .linkedin {
-  color: #0077b5;
+  color: #2298d6;
 }
 
 .facebook:hover,
@@ -445,12 +422,12 @@ a {
 
 a :hover {
   transform: translatey(-10px);
-  color: #7b0de0;
 }
 
 .link_class {
   font-family: ui-serif;
   font-size: 32px;
+  color: black;
 }
 
 .Links_to_websites {

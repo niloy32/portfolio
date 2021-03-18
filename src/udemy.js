@@ -12,7 +12,7 @@ import lol_logo from "./udemy-logo-1.jpg";
 
 export default function Udemy() {
   return (
-    <Card className="root">
+    <Card className="root assd">
       <CardHeader
         avatar={<Avatar alt="Remy Sharp" src={lol_logo} />}
         title="Udemy courses completed "

@@ -2,7 +2,6 @@ import logo from "./logo.svg";
 import { BrowserRouter as Router } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
-import { fas } from "@fortawesome/free-brands-svg-icons";
 import {
   faCheckSquare,
   faCoffee,
@@ -23,26 +22,21 @@ import money from "./money-check-alt-solid.svg";
 import tshirt from "./tshirt-solid.svg";
 import "./App.css";
 import "./backup_css.css";
-
+library.add(
+  fab,
+  faCheckSquare,
+  faCoffee,
+  faCertificate,
+  faAmericanSignLanguageInterpreting
+);
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>*/}
         <div className="grid">
           <div id="first_box">
             <h1 id="name_text">
-              <img src={logo} className="App-logo " alt="logo" />
-              <img src={logo} className="App-logo logo2" alt="logo" />
-              <p className="name">Tanzimul Haque</p>
+              <p className="name">Tanzimul Haque Niloy</p>
             </h1>
           </div>
         </div>
@@ -79,9 +73,6 @@ function App() {
                   <FontAwesomeIcon icon={["fab", "github-square"]} />
                 </a>
               </Router>
-              {/*<a href="#" className="fa fa-facebook"></a>
-              <a href="#" className="fa fa-linkedin"></a>
-              <a href="#" className="fa fa-twitter"></a>*/}
             </div>
           </div>
         </div>

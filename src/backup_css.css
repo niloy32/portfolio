@@ -10,7 +10,8 @@
 } */
 
 .media:hover {
-  transform: translatey(-10px);
-  color: #7b0de0;
-  background-color: red;
+}
+
+.media {
+  background-color: #2f2f2f;
 }
