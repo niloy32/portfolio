@@ -137,6 +137,7 @@ p {
   /* border: 3px solid green; */
   font-size: 3.4rem;
   font-family: monospace;
+  text-decoration: underline;
 }
 
 #Person_Details2 {
@@ -198,6 +199,7 @@ p {
   color: #08fa00;
   font-family: monospace;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 #languages_Details li {
@@ -368,11 +370,11 @@ body {
 
 .facebook {
   display: inline-block;
-  color: #6082ff;
+  color: #3f68ff;
 }
 
 .twitter {
-  color: #55acee;
+  color: #292929;
   display: inline-block;
 }
 
@@ -423,4 +425,42 @@ body {
 
 .Acivemnts_grid {
   padding: 7px;
+}
+
+#port_svg {
+  height: 35px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.idcard {
+  display: block;
+}
+.idcard :hover {
+  transform: translatey(-10px);
+}
+
+a {
+  text-decoration: none;
+}
+
+a :hover {
+  transform: translatey(-10px);
+  color: #7b0de0;
+}
+
+.link_class {
+  font-family: ui-serif;
+  font-size: 32px;
+}
+
+.Links_to_websites {
+  color: black;
+  font-family: cursive;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.MuiTypography-displayBlock {
+  display: block;
+  font-size: 23px;
 }

@@ -2,25 +2,27 @@ import logo from "./logo.svg";
 import { BrowserRouter as Router } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
+import { fas } from "@fortawesome/free-brands-svg-icons";
 import {
   faCheckSquare,
   faCoffee,
   faCertificate,
   faAmericanSignLanguageInterpreting,
+  faIdCard,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Gamefest from "./Test_icon";
 import Aciv_nsu2016 from "./2016_aciv";
 import Youth_zest2018 from "./youth_zest";
+import Aws from "./aws";
+import Unity_script from "./unity_script";
+import Udemy from "./udemy";
 import niloy from "./niloy.jpg";
+import idcard from "./id-card-alt-solid.svg";
+import money from "./money-check-alt-solid.svg";
+import tshirt from "./tshirt-solid.svg";
 import "./App.css";
-library.add(
-  fab,
-  faCheckSquare,
-  faCoffee,
-  faCertificate,
-  faAmericanSignLanguageInterpreting
-);
+import "./backup_css.css";
 
 function App() {
   return (
@@ -63,18 +65,18 @@ function App() {
                   <FontAwesomeIcon icon={["fab", "facebook-square"]} />
                 </a>
                 <a
-                  href="https://www.linkedin.com/"
+                  href="https://www.linkedin.com/in/tanzimulhaque/"
                   target="_blank"
                   className="linkedin"
                 >
                   <FontAwesomeIcon icon={["fab", "linkedin"]} />
                 </a>
                 <a
-                  href="https://www.twitter.com/"
+                  href="https://github.com/niloy32"
                   target="_blank"
                   className="twitter"
                 >
-                  <FontAwesomeIcon icon={["fab", "twitter-square"]} />
+                  <FontAwesomeIcon icon={["fab", "github-square"]} />
                 </a>
               </Router>
               {/*<a href="#" className="fa fa-facebook"></a>
@@ -89,19 +91,20 @@ function App() {
           <div id="Person_Details3">
             <p id="Person_Details2">
               I am a computer science and engineering student currently studying
-              at the University of Liberal Arts Bangladesh. I have profound
-              knowledge of anything computer-related. I have strong analytic and
-              creative skills. I always keep up to date with any new technology
-              and news about the tech industry. I have done few projects in
-              university and I have a lot of experience working with a team.
-              Currently, I’m working as a freelancer. In my free time, I try
-              learning new skills from Coursera or udemy and play video games.
-              I’ve made some websites using HTML, CSS, and JavaScript and
-              currently learning unity game development. I have also used
-              Firebase, MySQL, and PHP for small projects. I am eager to learn
-              new things and I can adapt to any situation. I have participated
-              in a lot of gaming tournaments so I am a really good team player
-              and also, I can work under stress.
+              at the University of Liberal Arts Bangladesh. I have strong
+              analytic and creative skills. I always keep up to date with any
+              new technology and news about the tech industry. Currently, I’m
+              working as a freelancer. In my free time, I try learning new
+              skills from Coursera or udemy and play video games. I’ve made some
+              websites for university projects. Currently learning react
+              JavaScript framework and unity game development. I am working on a
+              blockchain-based database system to keep student data. I like to
+              use git to keep a backup of my code and use firebase for
+              hosting/Database. I have linked to some of the websites I’ve made
+              at the bottom of the resume. I am eager to learn new things and I
+              can adapt to any situation. I have participated in a lot of gaming
+              tournaments so I am a really good team player and also, I can work
+              under stress.
             </p>
           </div>
         </div>
@@ -139,12 +142,11 @@ function App() {
             What Computer languages I Know
           </p>
           <div id="languages_Details">
-            <li>C++</li>
-            <li>HTML/CSS</li>
-            <li>Java Script</li>
-            <li>Python</li>
-            <li>C# (C sharp)</li>
-            <li>Unity Game Engine</li>
+            <li>Java Script/React</li>
+            <li>Nodejs, Express API</li>
+            <li>FireBase</li>
+            <li>Git/ GitHub</li>
+            <li>C# / Unity Game Engine</li>
           </div>
         </div>
 
@@ -153,55 +155,58 @@ function App() {
         <div className="grid Acivemnts_grid" id="Acivemnts_grid">
           <p id="Acivemnts_Details">Acivemnts</p>
           <div id="Aciv_div">
-            {/* <li>
-              Participated in Gamefest (2015) Runners-up of League of legends
-            </li>
-            <li>
-              Participated in Gamescon (2016) Champion of League of legends
-            </li>
-            <li>
-              Participated in NSU Cybernauts competition arranged by NSU
-              Computer Club (2016) Champion of League of legends
-            </li>
-            <li>
-              Participated in Youthzest Bangladesh hosted by Youthzest (2018)
-              Runners-up of League of legends
-            </li>
-            <li>
-              63rd Annual Science Festival 2019 Saint Joseph Higher Secondary
-              School Runners-up of League of legends
-            </li>
-            <li>
-              Participated in NSU Cybernauts competition arranged by NSU
-              Computer Club (2019) Runners-up of League of legends
-            </li> */}
-
             <div className="card_div">
               <Gamefest />
-
               <Aciv_nsu2016 />
-
               <Youth_zest2018 />
             </div>
-          </div>
-          {/* <video loop autoPlay muted id="game_video">
-            <source src={video} type="video/mp4" />
-            Your browser does not support the video tag. I suggest you upgrade
-            your browser.
-          </video> */}
-        </div>
-
-        {/*junk 
-
-        <div className="test_div">
-          <div>
-            <div>
-              <FontAwesomeIcon icon="american-sign-language-interpreting" />
-              <FontAwesomeIcon icon="check-square" />
-              ready!
+            <div className="card_div">
+              <Aws />
+              <Unity_script />
+              <Udemy />
             </div>
           </div>
-        </div>*/}
+        </div>
+
+        <div className="grid 'id=" languages_grid>
+          <p id="" className="What_Computer Links_to_websites">
+            Links to websites I made
+          </p>
+          <div id="languages_Details">
+            <a
+              href=" https://portfolio-reactv1.web.app/"
+              target="_blank"
+              className="idcard"
+            >
+              <h1 className="link_class">
+                <img src={idcard} id="port_svg" /> My portfolio I made in react
+                <img src={idcard} id="port_svg" />
+              </h1>
+            </a>
+            <a
+              href="  https://dhaka-stock-exchange-test1.web.app/"
+              target="_blank"
+              className="idcard"
+            >
+              <h1 className="link_class">
+                <img src={money} id="port_svg" /> Stock-Exchange website that
+                generates random data
+                <img src={money} id="port_svg" />
+              </h1>
+            </a>
+            <a
+              href=" https://blisstyle-8141e.firebaseapp.com/"
+              target="_blank"
+              className="idcard"
+            >
+              <h1 className="link_class">
+                <img src={tshirt} id="port_svg" />
+                E-commerce demo Website with funtional cart system
+                <img src={tshirt} id="port_svg" />
+              </h1>
+            </a>
+          </div>
+        </div>
       </header>
     </div>
   );

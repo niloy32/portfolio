@@ -1,0 +1,16 @@
+.MuiTypography-displayBlock {
+  display: block;
+  font-size: 23px;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .MuiAvatar-root {
+    animation: App-logo-spin infinite 5s linear;
+  }
+} */
+
+.media:hover {
+  transform: translatey(-10px);
+  color: #7b0de0;
+  background-color: red;
+}
