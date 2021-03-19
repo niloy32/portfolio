@@ -20,6 +20,7 @@ import niloy from "./niloy.jpg";
 import idcard from "./id-card-alt-solid.svg";
 import money from "./money-check-alt-solid.svg";
 import tshirt from "./tshirt-solid.svg";
+import github from "./github-square-brands.svg";
 import "./App.css";
 import "./backup_css.css";
 library.add(
@@ -169,7 +170,7 @@ function App() {
               className="idcard"
             >
               <h1 className="link_class">
-                <img src={idcard} id="port_svg" /> My portfolio I made in react
+                <img src={idcard} id="port_svg" /> portfolio I made in react
                 <img src={idcard} id="port_svg" />
               </h1>
             </a>
@@ -193,6 +194,17 @@ function App() {
                 <img src={tshirt} id="port_svg" />
                 E-commerce demo Website with funtional cart system
                 <img src={tshirt} id="port_svg" />
+                <a
+                  href=" https://github.com/niloy32"
+                  target="_blank"
+                  className="idcard"
+                >
+                  <h1 className="link_class">
+                    <img src={github} id="port_svg" />
+                    MY GitHub
+                    <img src={github} id="port_svg" />
+                  </h1>
+                </a>
               </h1>
             </a>
           </div>
