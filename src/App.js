@@ -116,7 +116,6 @@ function App() {
             <p className="" id="institute">
               University of Liberal Arts Bangladesh
             </p>
-            <p></p>
             <p className="" id="years">
               Under Graduation in Computer Science And Engineering (2016-2020)
             </p>

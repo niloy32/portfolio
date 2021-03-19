@@ -9,6 +9,7 @@ import CardContent from "@material-ui/core/CardContent";
 import Avatar from "@material-ui/core/Avatar";
 import youth_zest from "./awsc.png";
 import lol_logo from "./AWS-Academy-Accredited-Educator-Badge.png";
+import "./backup_css.css";
 
 export default function Aws() {
   return (

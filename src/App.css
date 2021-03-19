@@ -77,24 +77,17 @@ video {
 }
 
 p {
-  color: rgb(4, 11, 22);
+  color: rgb(255, 255, 255);
   font-family: "Courier New", Courier, monospace;
   font-size: 200%;
   text-align: center;
 }
 .personnal_gric {
-  background: #2193b0; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to left,
-    #6dd5ed,
-    #2193b0
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to left,
-    #6dd5ed,
-    #2193b0
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("personal_details.jpg");
   border-radius: 2%;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
 }
 #name_text p {
   margin-block: -3vh;
@@ -138,12 +131,15 @@ p {
   font-size: 3.4rem;
   font-family: monospace;
   text-decoration: underline;
+  color: #ffffff;
+  text-shadow: 3px 2px #eb3d08;
 }
 
 #Person_Details2 {
   font-size: 1.8rem;
   font-family: cursive;
   text-align: -webkit-center;
+  text-shadow: 3px 2px #135037;
 }
 
 #Person_Details3 {
@@ -159,17 +155,19 @@ p {
 }
 
 #years {
-  color: #08165d;
+  color: #ffffff;
   font-weight: 600;
   font-size: -webkit-xxx-large;
   font-family: cursive;
   margin-top: 0%;
+  text-shadow: 3px 2px #1376bd;
 }
 
 .EDUCATION_gird {
-  background-image: url("edu.gif");
-  background-repeat: round;
+  background-image: url("UFUNK_net.gif");
+  background-repeat: no-repeat;
   border-radius: 2%;
+  background-size: cover;
 }
 /* .EDUCATION_gird:hover {
   transform: translatey(-25px);
@@ -188,8 +186,10 @@ p {
   font-size: 2.9rem;
   font-family: system-ui;
   margin-top: 5px;
-  color: #f7f1e3;
+  color: #bd4f4f;
   font-weight: bold;
+  text-decoration: underline;
+  text-shadow: 3px 2px #1376bd;
 }
 
 .What_Computer {
@@ -200,6 +200,7 @@ p {
   font-family: monospace;
   font-weight: bold;
   text-decoration: underline;
+  text-shadow: 3px 2px #7f1563;
 }
 
 #languages_Details li {
@@ -238,14 +239,14 @@ p {
 }
 
 #Acivemnts_Details {
-  /* background-color: brown;
-
-  border: 3px solid green; */
   margin: auto;
   width: 50%;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: bold;
   text-decoration: underline;
+  font-family: cursive;
+  color: #6e00ff;
+  text-shadow: 2px 2px #000000;
 }
 
 #Aciv_div li {
@@ -259,6 +260,11 @@ p {
 
 body {
   background-color: #526875;
+  background-image: url(body_back.jpg);
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 /* 
@@ -282,7 +288,7 @@ body {
 
 /* Facebook */
 .fa-facebook {
-  background: #0f59f7;
+  background: #1747ff94;
   color: white;
 }
 
@@ -337,8 +343,9 @@ body {
 }
 
 .cardtext {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: cursive;
   font-size: 2rem;
+  text-shadow: 2px 2px #000000;
 }
 
 .MuiTypography-body2 {
@@ -351,12 +358,12 @@ body {
 }
 
 .twitter {
-  color: #292929;
+  color: #352b2b;
   display: inline-block;
 }
 
 .linkedin {
-  color: #2298d6;
+  color: #02255af2;
 }
 
 .facebook:hover,
@@ -403,7 +410,6 @@ body {
 .Acivemnts_grid {
   padding: 7px;
 }
-
 #port_svg {
   height: 35px;
   margin-left: 5px;
@@ -427,11 +433,12 @@ a :hover {
 .link_class {
   font-family: ui-serif;
   font-size: 32px;
-  color: black;
+  color: #ffffff;
+  text-shadow: 2px 2px #df3d3d;
 }
 
 .Links_to_websites {
-  color: black;
+  color: rgb(255, 255, 255);
   font-family: cursive;
   font-size: 40px;
   text-decoration: underline;
@@ -440,4 +447,12 @@ a :hover {
 .MuiTypography-displayBlock {
   display: block;
   font-size: 23px;
+}
+
+img {
+  color: rebeccapurple;
+}
+
+.Acivemnts_Details {
+  font-family: cursive;
 }
