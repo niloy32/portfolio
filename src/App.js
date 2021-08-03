@@ -129,6 +129,8 @@ function App() {
           <div id="languages_Details">
             <li>Java Script/React</li>
             <li>Nodejs, Express API</li>
+            <li>PHP</li>
+            <li>SQL</li>
             <li>FireBase</li>
             <li>Git/ GitHub</li>
             <li>C# / Unity Game Engine</li>
