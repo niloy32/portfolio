@@ -82,21 +82,15 @@ function App() {
           <p id="Person_Details">Person Details</p>
           <div id="Person_Details3">
             <p id="Person_Details2">
-              I am a computer science and engineering student currently studying
-              at the University of Liberal Arts Bangladesh. I have strong
-              analytic and creative skills. I always keep up to date with any
-              new technology and news about the tech industry. Currently, I’m
-              working as a freelancer. In my free time, I try learning new
-              skills from Coursera or udemy and play video games. I’ve made some
-              websites for university projects. Currently learning react
-              JavaScript framework and unity game development. I am working on a
-              blockchain-based database system to keep student data. I like to
-              use git to keep a backup of my code and use firebase for
-              hosting/Database. I have linked to some of the websites I’ve made
-              at the bottom of the resume. I am eager to learn new things and I
-              can adapt to any situation. I have participated in a lot of gaming
-              tournaments so I am a really good team player and also, I can work
-              under stress.
+             I am a computer science and engineering graduate. I have finished my undergraduate degree from the University of liberal arts Bangladesh in  
+               June 2021. Currently, I’m working as an intern DevSecOps Cloud Engineer at Brotecs Technologies Limited. I mainly work with cloud-based VOIP 
+               apps built with JS, PHP, and python. I have profound knowledge of anything computer-related. I have strong analytic and creative skills. 
+               I always keep up to date with any new technology and news about the tech industry. I have done a few projects in university and 
+               I have a lot of experience working with many teams. I have also worked as a freelancer. In my free time, I try learning new 
+               skills from Coursera or udemy and play video games. I’ve worked on both the frontend and backend. I have also used Firebase, MySQL, 
+                 and PHP for small projects of my own. For my last final project in university I made a Block-chain based Supply-Chain-Management App 
+                 (link in github).  I am eager to learn new things and I can adapt to any situation. I have participated in a lot of gaming tournaments 
+                 so I am a really good team player and also, I can work under stress.  
             </p>
           </div>
         </div>
