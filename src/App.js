@@ -82,15 +82,15 @@ function App() {
           <p id="Person_Details">Person Details</p>
           <div id="Person_Details3">
             <p id="Person_Details2">
-             I am a computer science and engineering graduate. I have finished my undergraduate degree from the University of liberal arts Bangladesh in  
-               June 2021. Currently, I’m working as an intern DevSecOps Cloud Engineer at Brotecs Technologies Limited. I mainly work with cloud-based VOIP 
-               apps built with JS, PHP, and python. I have profound knowledge of anything computer-related. I have strong analytic and creative skills. 
-               I always keep up to date with any new technology and news about the tech industry. I have done a few projects in university and 
-               I have a lot of experience working with many teams. I have also worked as a freelancer. In my free time, I try learning new 
-               skills from Coursera or udemy and play video games. I’ve worked on both the frontend and backend. I have also used Firebase, MySQL, 
-                 and PHP for small projects of my own. For my last final project in university I made a Block-chain based Supply-Chain-Management App 
-                 (link in github).  I am eager to learn new things and I can adapt to any situation. I have participated in a lot of gaming tournaments 
-                 so I am a really good team player and also, I can work under stress.  
+            I graduated from the University of Liberal Arts Bangladesh with a bachelor's degree in computer science and engineering. For the time being, 
+            I am employed by Aspyrer Technologies as a Full Stack Developer, and I have one year of experience as a software developer. I'm particularly interested in 
+            cloud-based applications written in JavaScript, PHP, or Python. I am well-versed in a wide range of computer-related subjects and technology. Analysis and 
+            creativity are two of my strongest skills. I keep up with the latest technology and news in the IT industry on a regular basis. When I was in college, I had the 
+            opportunity to work with teams on a variety of projects. I've also worked as a freelancer. In my spare time, Coursera and Udemy are two of my go-to resources
+             for self-improvement. I have experience working on both frontend and backend development. In addition, for my small-scale projects, I've used Firebase, 
+             Heroku, and GitHub Hosting. For my final project in university, I created a blockchain-based supply-chain management app (link in GitHub). Learning new 
+             things and adapting to any situation comes naturally to me. I am an exceptional team player who is capable of overcoming obstacles as a result of my
+              participation in several gaming contests.
             </p>
           </div>
         </div>
@@ -112,12 +112,10 @@ function App() {
               University of Liberal Arts Bangladesh
             </p>
             <p className="" id="years">
-              Under Graduation in Computer Science And Engineering (2016-2020)
+              BSc in Computer Science And Engineering (2016-2021)
             </p>
           </div>
-          {/* <video loop autoPlay muted id="edu_video">
-            <source src="video2.mp4" type="video/mp4" />
-          </video>*/}
+   
         </div>
 
         {/*LANGUEAGE DETAILS*/}
@@ -127,12 +125,12 @@ function App() {
             What Computer languages I Know
           </p>
           <div id="languages_Details">
-            <li>Java Script/React</li>
+            <li>Java Script/React /React Native</li>
             <li>Nodejs, Express API</li>
             <li>PHP</li>
-            <li>SQL</li>
+            <li>SQL/NoSQL</li>
             <li>FireBase</li>
-            <li>Git/ GitHub</li>
+            <li>PHP/ Laravel</li>
             <li>C# / Unity Game Engine</li>
           </div>
         </div>
